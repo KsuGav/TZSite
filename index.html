@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css"/>
+    <script src="https://code.jquery.com/jquery-3.0.0.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="styles.css"/>
+    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.maskedinput/1.4.1/jquery.maskedinput.min.js"></script>
+    <script src="slider.js"></script>
+</head>
+<body>
+<header class="container" id="top">
+    <div class="row">
+        <ul class="nav navbar-nav col-sm-9" id="top_menu">
+            <li><a href="#twitter">Twitter</a></li>
+            <li><a href="#facebook">Facebook</a></li>
+            <li><a href="#linkedin">LinkedIn</a></li>
+            <li class="dropdown">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown">Русский <b class="caret"></b></a>
+                <ul class="dropdown-menu">
+                    <li><a href="#">Русский</a></li>
+                    <li><a href="#">Українська</a></li>
+                    <li><a href="#">English</a></li>
+                </ul>
+            </li>
+        </ul>
+    </div>
+    <div class="row">
+        <div class="col-md-9 text-right" id="telephone">
+            <div class="col-md-4 col-md-offset-8">
+                <div class="col-md-4 text_small">Заказать обратный звонок</div>
+                <div class="col-md-4 text_small">+38099-999-99-99</div>
+                <div class="col-md-4 text_small">+38099-999-99-99</div>
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <nav class="col-md-7 col-md-offset-5" id="menu">
+            <p>Главная</p>
+            <p>О компании</p>
+            <p>Менеджмент-туры</p>
+            <p>Отзывы</p>
+            <p>Контакты</p>
+        </nav>
+    </div>
+</header>
+
+<section class="jumbotron" id="screen_1">
+    <!--//picture with text and button-->
+    <div class="container" >
+        <div class="row text-center">
+            <h2>HR-менеджмент тур</h2>
+            <h4>Google</h4>
+            <p>Вы посетите компанию гугл и бла-бла-бла</p>
+            <a class="btn btn-warning" href="#">Зарегистрироваться</a>
+        </div>
+    </div>
+</section>
+<!--//блок инфо о туре-->
+<section class="container blockPage" id ='info_tour'>
+    <div class="row text-center">
+        <h3>ИНФОРМАЦИЯ О ТУРЕ</h3>
+        <p>Кремниевая долина - это то место, в котором рождается огромное количество
+            <span>современных технологий</span></p>
+    </div>
+    <div class="row ">
+        <div class="col-md-3 infoAboutTour">
+            <h5>Тема визита</h5>
+            <p>Новые вызовы в управлении персоналом</p>
+        </div>
+        <div class="col-md-3 infoAboutTour">
+            <h5>Тема визита</h5>
+            <p>Новые вызовы в управлении персоналом</p>
+        </div>
+        <div class="col-md-3 infoAboutTour">
+            <h5>Тема визита</h5>
+            <p>Новые вызовы в управлении персоналом</p>
+        </div>
+
+    </div>
+    <div class="row">
+        <button type="button" class="btn btn-warning">Зарегистрироваться</button>
+    </div>
+</section>
+<!--//блок с отзывами и каруселью-->
+<section class="container blockPage" id="comments">
+<div class="row">
+    <div class="carousel-arrow-left"><span>Влево</span></div>
+    <div class="carousel-hider">
+        <ul class="carousel-list">
+            <li class="carousel-element"><div><p>Отзыв 1</p></div></li>
+            <li class="carousel-element"><div><p>Отзыв 2</p></div></li>
+            <li class="carousel-element"><div><p>Отзыв 3</p></div></li>
+            <li class="carousel-element"><div><p>Отзыв 4</p></div></li>
+            <li class="carousel-element"><div><p>Отзыв 5</p></div></li>
+        </ul>
+    </div>
+    <div class="carousel-arrow-right"><span>Вправо</span></div>
+</div>
+    <div class="row text-center">
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+            Consequuntur hic nobis perferendis ut. Adipisci cumque ducimus
+            fugiat fugit iusto laborum libero, modi omnis perferendis rem
+            sapiente sint suscipit ut voluptatem.</p>
+    </div>
+    <div class="row">
+        <button type="button" class="btn btn-warning">Посмотреть все отзывы</button>
+    </div>
+</section>
+<!--//блок с компаниями которые посетите-->
+<section class="container blockPage" id="visit_company">
+
+</section>
+<!--//блок формой регистрации-->
+<section class="container blockPage" id="registration">
+    <hr>
+<div class="row">
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+        Ab accusantium ad, aliquid assumenda, ducimus enim facilis fugiat iusto
+        labore magni natus, nihil nisi nulla odit quod reiciendis soluta tempora vero?</p>
+</div>
+    <div class="row">
+        <div class="col-md-6">
+            <form role="form">
+                <div class="form-group">
+                    <label for="Name">ФИО</label>
+                    <input type="text" class="form-control" id="Name">
+                </div>
+                <div class="form-group">
+                    <label for="teleph">Телефон</label>
+                    <input type="tel" class="form-control" id="teleph">
+                </div>
+                <div class="form-group">
+                    <label for="exampleInputEmail1">Email</label>
+                    <input type="email" class="form-control" id="exampleInputEmail1">
+                </div>
+                <div class="form-group">
+                    <label for="company">Ваша компания</label>
+                    <input type="text" class="form-control" id="company">
+                </div>
+            </form>
+        </div>
+        <div class="col-md-6">
+            <img src=""/>
+            <p>fff</p>
+            <p>sss</p>
+            <p>yyy</p>
+        </div>
+    </div>
+    <div class="row">
+
+    </div>
+
+</section>
+<!--//блок с партнерами-->
+<section class="container blockPage" id="partners">
+    <hr>
+    <div class="partner"><img src="img/logo_partners.png" class="logoPartner"/></div>
+    <div class="partner"><img src="img/logo_partners.png" class="logoPartner"/></div>
+    <div class="partner"><img src="img/logo_partners.png" class="logoPartner"/></div>
+    <div class="partner"><img src="img/logo_partners.png" class="logoPartner"/></div>
+    <div class="partner"><img src="img/logo_partners.png" class="logoPartner"/></div>
+</section>
+
+<footer class="container">
+    <section class="jumbotron" id="adresses">
+        <div class="row blockPage">
+            <div class="col-md-3">
+                <div class="row"><img src="img/logo1.png" class="logo1"/></div>
+                <div class="row">
+                    <div class="col-md-6">
+                        <p class="text_small">О компании</p>
+                        <p class="text_small">Инновации</p>
+                        <p class="text_small">iConference</p>
+                    </div>
+                    <div class="col-md-6">
+                        <p class="text_small">Карта проезда</p>
+                        <p class="text_small">Партнеры</p>
+                        <p class="text_small">Контакты</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3">2</div>
+            <div class="col-md-3">3</div>
+            <div class="col-md-3">4</div>
+        </div>
+    </section>
+    <section class="container" id="foot">
+        <div class="row blockPage">
+            <div class="col-md-3">Copyright</div>
+            <div class="col-md-6">Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                Architecto exercitationem hic id impedit itaque magnam nemo neque quisquam
+                voluptatem?</div>
+            <div class="col-md-3">icons</div>
+        </div>
+    </section>
+</footer>
+</body>
+</html>

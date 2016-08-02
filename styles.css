@@ -1,0 +1,105 @@
+header nav {
+    display: flex;
+    justify-content: flex-end;
+}
+
+section.jumbotron nav{
+    display: flex;
+    justify-content: flex-end;
+}
+header p {
+    padding: 0 20px;
+    margin: 0;
+}
+button{
+    margin-left: 40%;
+    margin-top: 10px;
+}
+#top_menu, #adresses{
+    background: dimgray;
+}
+#menu{
+    background: orange;
+}
+#menu p{
+    padding: 0 20px;
+    margin: 0;
+}
+#top_menu li{
+    color: white;
+}
+.infoAboutTour{
+    display: inline-block;
+    width: 32%;
+    margin-left: 5px;
+    border: 1px solid dimgrey;
+    text-align: center;
+    padding: auto;
+}
+.blockPage{
+    width: 50%;
+    margin: auto;
+}
+.partner{
+    display: inline-flex;
+    width: 100px;
+    margin: 7px;
+}
+.logoPartner{
+    width:100px;
+    height: 100px;
+}
+.logo1{
+    width:100px;
+    height:30px;
+}
+.text_small{
+    font-size: x-small;
+}
+
+
+
+.carousel-hider {
+    width: 500px;
+    overflow: hidden;
+    float: left;
+}
+
+.carousel-list {
+    list-style: none;
+    width: 10000px;
+    padding: 0px;
+    position: relative;
+}
+
+.carousel-element {
+    display: block;
+    margin-right: 25px;
+    float: left;
+}
+
+.carousel-element div {
+    width: 200px;
+    height: 300px;
+}
+.carousel-arrow-left, .carousel-arrow-right {
+    float: left;
+    display: block;
+    border: 1px solid grey;
+    background-color: lightgrey;
+    padding: 5px;
+    margin-top: 50px;
+}
+
+.carousel-arrow-left:hover, .carousel-arrow-right:hover {
+    cursor: pointer;
+    background-color: grey;
+}
+
+.carousel-arrow-left {
+    margin-right: 25px;
+}
+
+.carousel-arrow-right {
+    margin-left: 25px;
+}
