@@ -11,9 +11,10 @@
     <script src="slider.js"></script>
 </head>
 <body>
-<header class="container" id="top">
+<header class="jambotron" id="top">
     <div class="row">
-        <ul class="nav navbar-nav col-sm-9" id="top_menu">
+        <div class="col-md-9">
+        <ul class="nav navbar-nav" id="top_menu">
             <li><a href="#twitter">Twitter</a></li>
             <li><a href="#facebook">Facebook</a></li>
             <li><a href="#linkedin">LinkedIn</a></li>
@@ -26,13 +27,14 @@
                 </ul>
             </li>
         </ul>
+        </div>
     </div>
     <div class="row">
         <div class="col-md-9 text-right" id="telephone">
-            <div class="col-md-4 col-md-offset-8">
-                <div class="col-md-4 text_small">Заказать обратный звонок</div>
-                <div class="col-md-4 text_small">+38099-999-99-99</div>
-                <div class="col-md-4 text_small">+38099-999-99-99</div>
+            <div class="col-md-8 col-md-offset-4">
+                <div class="col-md-6 text_small">Заказать обратный звонок</div>
+                <div class="col-md-3 text_small">+38099-999-99-99</div>
+                <div class="col-md-3 text_small">+38099-999-99-99</div>
             </div>
         </div>
     </div>
@@ -51,9 +53,9 @@
     <!--//picture with text and button-->
     <div class="container" >
         <div class="row text-center">
-            <h2>HR-менеджмент тур</h2>
-            <h4>Google</h4>
-            <p>Вы посетите компанию гугл и бла-бла-бла</p>
+            <h2 class="textshadow">HR-менеджмент тур</h2>
+            <h4 class="textshadow">Google</h4>
+            <p class="textshadow">Вы посетите компанию гугл и бла-бла-бла</p>
             <a class="btn btn-warning" href="#">Зарегистрироваться</a>
         </div>
     </div>
@@ -61,21 +63,21 @@
 <!--//блок инфо о туре-->
 <section class="container blockPage" id ='info_tour'>
     <div class="row text-center">
-        <h3>ИНФОРМАЦИЯ О ТУРЕ</h3>
+        <p id="text_setting">ИНФОРМАЦИЯ О ТУРЕ</p>
         <p>Кремниевая долина - это то место, в котором рождается огромное количество
-            <span>современных технологий</span></p>
+            <span class="orange">современных технологий</span></p>
     </div>
     <div class="row ">
         <div class="col-md-3 infoAboutTour">
-            <h5>Тема визита</h5>
+            <p class="text_size">Тема визита</p>
             <p>Новые вызовы в управлении персоналом</p>
         </div>
         <div class="col-md-3 infoAboutTour">
-            <h5>Тема визита</h5>
+            <p class="text_size">Тема визита</p>
             <p>Новые вызовы в управлении персоналом</p>
         </div>
         <div class="col-md-3 infoAboutTour">
-            <h5>Тема визита</h5>
+            <p class="text_size">Тема визита</p>
             <p>Новые вызовы в управлении персоналом</p>
         </div>
 
@@ -86,25 +88,99 @@
 </section>
 <!--//блок с отзывами и каруселью-->
 <section class="container blockPage" id="comments">
-<div class="row">
-    <div class="carousel-arrow-left"><span>Влево</span></div>
-    <div class="carousel-hider">
-        <ul class="carousel-list">
-            <li class="carousel-element"><div><p>Отзыв 1</p></div></li>
-            <li class="carousel-element"><div><p>Отзыв 2</p></div></li>
-            <li class="carousel-element"><div><p>Отзыв 3</p></div></li>
-            <li class="carousel-element"><div><p>Отзыв 4</p></div></li>
-            <li class="carousel-element"><div><p>Отзыв 5</p></div></li>
-        </ul>
-    </div>
-    <div class="carousel-arrow-right"><span>Вправо</span></div>
-</div>
+    <hr>
     <div class="row text-center">
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
             Consequuntur hic nobis perferendis ut. Adipisci cumque ducimus
             fugiat fugit iusto laborum libero, modi omnis perferendis rem
             sapiente sint suscipit ut voluptatem.</p>
     </div>
+<div class="row text-center">
+    <div class="carousel-arrow-left"><span>&#9668;</span></div>
+    <div class="carousel-hider">
+        <ul class="carousel-list">
+            <li class="carousel-element">
+                <div class="carousel-div">
+                <div class="row commentText text-center"><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                Consequuntur hic nobis perferendis ut.</p></div>
+                <div class="row">
+                    <div class="col-md-5"><img src="img/foto_hr.jpg" class=" img-circle logoComment"/></div>
+                    <div class="col-md-5">
+                        <p class="commentName">Имя Фамилия</p>
+                        <p class="commentFirm">Должность, компания</p>
+                    </div>
+                </div>
+                </div>
+            </li>
+            <li class="carousel-element">
+                <div class="carousel-div">
+                    <div class="row commentText text-center"><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                        Consequuntur hic nobis perferendis ut.</p></div>
+                    <div class="row">
+                        <div class="col-md-5"><img src="img/foto_hr.jpg" class=" img-circle logoComment"/></div>
+                        <div class="col-md-5">
+                            <p class="commentName">Имя Фамилия</p>
+                            <p class="commentFirm">Должность, компания</p>
+                        </div>
+                    </div>
+            </div>
+            </li>
+            <li class="carousel-element">
+                <div class="carousel-div">
+                    <div class="row commentText text-center"><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                        Consequuntur hic nobis perferendis ut.</p></div>
+                    <div class="row">
+                        <div class="col-md-5"><img src="img/foto_hr.jpg" class=" img-circle logoComment"/></div>
+                        <div class="col-md-5">
+                            <p class="commentName">Имя Фамилия</p>
+                            <p class="commentFirm">Должность, компания</p>
+                        </div>
+                    </div>
+                </div>
+            </li>
+            <li class="carousel-element">
+                <div class="carousel-div">
+                    <div class="row commentText text-center"><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                        Consequuntur hic nobis perferendis ut.</p></div>
+                    <div class="row">
+                        <div class="col-md-5"><img src="img/foto_hr.jpg" class=" img-circle logoComment"/></div>
+                        <div class="col-md-5">
+                            <p class="commentName">Имя Фамилия</p>
+                            <p class="commentFirm">Должность, компания</p>
+                        </div>
+                    </div>
+                </div>
+            </li>
+            <li class="carousel-element">
+                <div class="carousel-div">
+                    <div class="row commentText text-center"><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                        Consequuntur hic nobis perferendis ut.</p></div>
+                    <div class="row">
+                        <div class="col-md-5"><img src="img/foto_hr.jpg" class=" img-circle logoComment"/></div>
+                        <div class="col-md-5">
+                            <p class="commentName">Имя Фамилия</p>
+                            <p class="commentFirm">Должность, компания</p>
+                        </div>
+                    </div>
+                </div>
+            </li>
+            <li class="carousel-element">
+                <div class="carousel-div">
+                    <div class="row commentText text-center"><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                        Consequuntur hic nobis perferendis ut.</p></div>
+                    <div class="row">
+                        <div class="col-md-5"><img src="img/foto_hr.jpg" class=" img-circle logoComment"/></div>
+                        <div class="col-md-5">
+                            <p class="commentName">Имя Фамилия</p>
+                            <p class="commentFirm">Должность, компания</p>
+                        </div>
+                    </div>
+                </div>
+            </li>
+        </ul>
+    </div>
+    <div class="carousel-arrow-right"><span>&#9658;</span></div>
+</div>
     <div class="row">
         <button type="button" class="btn btn-warning">Посмотреть все отзывы</button>
     </div>
@@ -123,7 +199,7 @@
 </div>
     <div class="row">
         <div class="col-md-6">
-            <form role="form">
+            <form role="form" method="post" action="javascript:void(0);" id="forma">
                 <div class="form-group">
                     <label for="Name">ФИО</label>
                     <input type="text" class="form-control" id="Name">
@@ -133,8 +209,8 @@
                     <input type="tel" class="form-control" id="teleph">
                 </div>
                 <div class="form-group">
-                    <label for="exampleInputEmail1">Email</label>
-                    <input type="email" class="form-control" id="exampleInputEmail1">
+                    <label for="Email">Email</label>
+                    <input type="email" class="form-control" id="Email">
                 </div>
                 <div class="form-group">
                     <label for="company">Ваша компания</label>
@@ -142,15 +218,15 @@
                 </div>
             </form>
         </div>
-        <div class="col-md-6">
-            <img src=""/>
-            <p>fff</p>
-            <p>sss</p>
-            <p>yyy</p>
+        <div class="col-md-6" id="consultant">
+            <img src="img/foto_hr.jpg" class=" img-circle logoPartner"/>
+            <br><small>"Этим вопросом займусь я лично!"</small>
+            <p class="orange">Алеся Гращук</p>
+            <strong>Руководитель компании</strong>
         </div>
     </div>
     <div class="row">
-
+        <button type="button" class="btn btn-warning">Зарегистрироваться</button>
     </div>
 
 </section>
@@ -164,36 +240,43 @@
     <div class="partner"><img src="img/logo_partners.png" class="logoPartner"/></div>
 </section>
 
-<footer class="container">
-    <section class="jumbotron" id="adresses">
-        <div class="row blockPage">
-            <div class="col-md-3">
-                <div class="row"><img src="img/logo1.png" class="logo1"/></div>
-                <div class="row">
-                    <div class="col-md-6">
-                        <p class="text_small">О компании</p>
-                        <p class="text_small">Инновации</p>
-                        <p class="text_small">iConference</p>
-                    </div>
-                    <div class="col-md-6">
-                        <p class="text_small">Карта проезда</p>
-                        <p class="text_small">Партнеры</p>
-                        <p class="text_small">Контакты</p>
-                    </div>
+<section class="jumbotron" id="adresses">
+    <div class="row blockPage">
+        <div class="col-md-3">
+            <div class="row"><img src="img/logo1.png" class="logo1"/></div>
+            <div class="row">
+                <div class="col-md-6">
+                    <small class="text_small">О компании</small>
+                    <small class="text_small">Инновации</small>
+                    <small class="text_small">iConference</small>
+                </div>
+                <div class="col-md-6">
+                    <small class="text_small">Карта проезда</small>
+                    <small class="text_small">Партнеры</small>
+                    <small class="text_small">Контакты</small>
                 </div>
             </div>
-            <div class="col-md-3">2</div>
-            <div class="col-md-3">3</div>
-            <div class="col-md-3">4</div>
         </div>
-    </section>
+        <div class="col-md-3"><small class="text_small">Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+            Dolorem harum nam soluta tempora vel? Commodi enim necessitatibus officia quaerat quas,
+            quisquam similique.</small></div>
+        <div class="col-md-3"><small class="text_small">Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+            Dolorem harum nam soluta tempora vel? Commodi enim necessitatibus officia quaerat quas,
+            quisquam similique. </small></div>
+        <div class="col-md-3"><small class="text_small">Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+            Dolorem harum nam soluta tempora vel? Commodi enim necessitatibus officia quaerat quas,
+            quisquam similique.</small></div>
+    </div>
+</section>
+
+<footer class="container">
+
     <section class="container" id="foot">
         <div class="row blockPage">
-            <div class="col-md-3">Copyright</div>
-            <div class="col-md-6">Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                Architecto exercitationem hic id impedit itaque magnam nemo neque quisquam
-                voluptatem?</div>
-            <div class="col-md-3">icons</div>
+            <div class="col-md-3"><small class="text_small">&copy;2015Fastforward</small></div>
+            <div class="col-md-6"><small class="text_small">Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+               </small></div>
+            <div class="col-md-3"><small class="text_small">icons</small></div>
         </div>
     </section>
 </footer>

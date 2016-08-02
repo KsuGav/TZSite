@@ -1,8 +1,10 @@
+body{
+    background-color: beige;
+}
 header nav {
     display: flex;
     justify-content: flex-end;
 }
-
 section.jumbotron nav{
     display: flex;
     justify-content: flex-end;
@@ -24,17 +26,39 @@ button{
 #menu p{
     padding: 0 20px;
     margin: 0;
+    cursor: pointer;
 }
-#top_menu li{
+#telephone .col-md-3{
+    border-left:1px solid lightgray;
+}
+#top_menu{
+    height: 30px;
+}
+#top_menu li a{
+    padding-top: 5px;
+    padding-bottom: 5px;
+    color: darkgrey;
+}
+#screen_1{
+    background-image: url(img/BackgroundJamb.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
     color: white;
+}
+#screen_1 .textshadow{
+    text-shadow: black 0.1em 0.1em 0.1em;
+}
+#text_setting{
+    color:red;
+    font-size: x-large;
 }
 .infoAboutTour{
     display: inline-block;
     width: 32%;
     margin-left: 5px;
-    border: 1px solid dimgrey;
+    border: 1px solid lightgrey;
     text-align: center;
-    padding: auto;
+    background: beige;
 }
 .blockPage{
     width: 50%;
@@ -49,16 +73,40 @@ button{
     width:100px;
     height: 100px;
 }
+.text_size{
+    font-size: large;
+}
 .logo1{
-    width:100px;
+    width:150px;
     height:30px;
 }
 .text_small{
     font-size: x-small;
 }
-
-
-
+.orange{
+    color: orange;
+}
+.logoComment{
+    width:60px;
+    height: 60px;
+    margin: 20px 0px 0 10px;
+}
+.commentText{
+    font-size: 11px;
+    background: burlywood;
+    width:220px;
+    margin: 4px 0px 4px 4px;
+    padding: 4px 4px 4px 4px;
+}
+.commentName{
+    font-size: 12px;
+    margin-top: 15px;
+    color: firebrick;
+    font-weight: bold;
+}
+.commentFirm{
+    font-size: 11px;
+}
 .carousel-hider {
     width: 500px;
     overflow: hidden;
@@ -78,28 +126,29 @@ button{
     float: left;
 }
 
-.carousel-element div {
-    width: 200px;
-    height: 300px;
+.carousel-div {
+    width: 230px;
+    border: 1px solid gainsboro;
 }
 .carousel-arrow-left, .carousel-arrow-right {
     float: left;
     display: block;
-    border: 1px solid grey;
     background-color: lightgrey;
+    border-radius: 50px;
+    opacity:0.5;
     padding: 5px;
     margin-top: 50px;
 }
-
 .carousel-arrow-left:hover, .carousel-arrow-right:hover {
     cursor: pointer;
     background-color: grey;
 }
 
 .carousel-arrow-left {
-    margin-right: 25px;
+    margin-right: 5px;
+    margin-left: 30px;
 }
 
 .carousel-arrow-right {
-    margin-left: 25px;
+    margin-left: 5px;
 }
